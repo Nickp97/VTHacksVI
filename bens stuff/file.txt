@@ -1,0 +1,8 @@
+Total scheduled payments for this period: $5034
+Total amount loaned out: $90430
+Estimated amount left after payment: $85396
+Average loan interest rate: 2.5%
+Total amount in client accounts: $123509983
+
+Total client deposits this period: $986890
+Total client withdrawals this period: $36546

@@ -1,0 +1,178 @@
+html, body {
+  font-family: Calibri, sans-serif;
+  height: 100%;
+}
+
+#bottom-of-page {
+	width: 100%;
+ 	position:fixed;
+ 	left: 0;
+	bottom: 0;
+	border: 1px solid #000;
+	background-color: white;
+}
+
+#status {
+	padding-top: 25px;
+	position:absolute;
+ 	right: 0;
+	top: 0;
+	margin-right: 7px;
+}
+
+#info {
+	width: 300px;
+	float: right;
+	margin-right: 37%;
+}
+
+#login_stuff {
+	float: left;
+}
+
+#this_needs_a_divider > h2, img {
+	float: left;
+}
+
+.center {
+	grid-row: 1 / span  2;
+	float: center;
+    margin: auto;
+    width: 30%;
+    height: 300px;
+    padding: 10px;
+}
+
+.centertext {
+	grid-row: 1 / span 2;
+	float: center;
+    margin: auto;
+    width: 30%;
+    height: 300px;
+    /*padding: 10px;*/
+    /*padding-top: 50px;*/
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.left {
+	grid-row: 1 / span 2;
+	float: left;
+	width: 30%;
+	height: 300px;
+	padding: 10px;
+}
+
+.right {
+	grid-row: 1 / span 2;
+	float: right;
+	width: 30%;
+	height: 300px;
+	padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.new_user_input > .typed_input
+{
+	width: 100%;
+}
+
+#input {
+	padding: 2px;
+    margin-top: 5px;
+    width: 498px;
+    border: 1px solid black;
+}
+
+.Attach_Document {
+	margin-top: 20px;
+}
+
+.submit {
+	margin-top: 38px;
+}
+
+.floating-box {
+    display: inline;
+}
+
+.newrow {
+	float: left;
+	width: 75%;
+}
+
+.buttonboi {
+	width: 20%;
+	height: 75px;
+	float: right;
+	background-color: #C4FF9D;
+}
+
+.parent > .child > img
+{
+	float: none;
+}
+
+.new_family_member
+{
+	width: 500px;
+}
+h1 {
+	font-size: 75px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+object {
+	font-size: 25px;
+	float: left;
+	width: 75%;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+	width: 100%;
+	border: 1px solid #000;
+}
+
+li {
+  display: inline;
+  width: 180px;
+  padding-left: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 0;
+  margin-right: 20px;
+  text-align: center;
+}
+
+p {
+	margin-left: 7px;
+}
+
+a:link, a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: cyan;
+}
+
+a {
+  text-decoration: none;
+}
